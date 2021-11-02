@@ -1,0 +1,127 @@
+light-theme {
+    color: #000000;
+    background: #00c3ff;
+}
+
+.btn {
+    color: var(--btnFontColor);
+    background-color: var(--btnBg);
+}
+
+.btn {
+    position: absolute;
+    top: 20px;
+    left: 250px;
+    height: 50px;
+    width: 50px;
+    border-radius: 50%;
+    border: none;
+    color: var(--btnFontColor);
+    background-color: var(--btnBg);
+}
+
+.light-theme {
+    --bg: var(--green);
+    --fontColor: var(--black);
+    --btnBg: var(--black);
+    --btnFontColor: var(--white);
+}
+
+.dark-theme {
+    --bg: var(--black);
+    --fontColor: var(--green);
+    --btnBg: var(--white);
+    --btnFontColor: var(--black);
+}
+
+const switcher=document.querySelector('.btn');
+switcher.addEventListener('click', function() {
+    document.body.classList.toggle('dark-theme')
+}
+
+);
+'use strict' const switcher=document.querySelector('.btn');
+switcher.addEventListener('click', function() {
+    document.body.classList.toggle('dark-theme') var className=document.body.className;
+    if(className=="light-theme") {
+        this.textContent="Dark";
+    }
+    else {
+        this.textContent="Light";
+    }
+}
+
+);
+box {
+    box-sizing: border-box;
+}
+
+.container {
+    width: 95%;
+    max-width: 900px;
+    padding: 32px 64px;
+    margin: auto;
+}
+
+.social {
+    /*las imágenes usadas tienen width de 48px*/
+    width: 48px;
+    position: fixed;
+    top: 50px;
+    right: 0;
+}
+
+
+/* Extra centrado vertical*/
+
+.social {
+    /*border:1px solid #000;*/
+    top: 50%;
+    height: 205px;
+    /*para poner height 192 deberíamos haber indicado en el reset de estilos font-size:0;*/
+    margin-top: -100px;
+}
+
+div {
+    height: 50px;
+    width: 200px;
+}
+
+.primero {
+    color: #7AC143;
+}
+
+.tercero {
+    color: #e2e2ac;
+}
+
+.cuarto {
+    color: #ac6767;
+}
+
+.quinto {
+    color: #525252;
+}
+
+pre,
+p {
+    font-size: 1.5em;
+    color: #FE7F88;
+    background-color: transparent;
+}
+
+div {
+    background-image: url("https://mdn.mozillademos.org/files/6457/mdn_logo_only_color.png");
+}
+
+p {
+    background-image: none;
+}
+
+.catsandstars {
+    background-image: url("https://mdn.mozillademos.org/files/11991/startransparent.gif"), url("https://mdn.mozillademos.org/files/7693/catfront.png");
+    background-color: transparent;
+}
+
+
+}
